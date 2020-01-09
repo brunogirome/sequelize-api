@@ -29,8 +29,7 @@ module.exports = {
                 where: { name: {
                     [Op.like]: `%${tech_name}%`
                 } }
-            }
-            ]
+            }]
         })
 
         return res.json(users)
